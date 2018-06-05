@@ -32,6 +32,8 @@ dependencies {
 	compile group: 'org.apache.tomcat.embed', name: 'tomcat-embed-jasper', version: '8.5.20'
 	// https://mvnrepository.com/artifact/javax.servlet/jstl
 	compile group: 'javax.servlet', name: 'jstl', version: '1.2'
+	compile("org.springframework.boot:spring-boot-starter-thymeleaf")
+	
 	
 	
 }
